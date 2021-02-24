@@ -38,13 +38,13 @@ def toSplit(t,p):
 a=[3,2,5,'*',1,6]
 if len(a)==1:
 	toPrint(count[a[0]])
-	
-b=[]
-for i in a:
-	b.append(count[i])
+else:	
+	b=[]
+	for i in a:
+		b.append(count[i])
 
-result=toSplit(b[0],b[1:])
-toPrint(result[0])
+	result=toSplit(b[0],b[1:])
+	toPrint(result[0])
 
 
 
